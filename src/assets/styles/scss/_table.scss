@@ -1,0 +1,19 @@
+th {
+  background: $gray;
+}
+
+td,
+th {
+  padding-block: 8px;
+  width: 33.33%;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid $secondary;
+}
+
+th {
+  border-bottom: 0;
+}

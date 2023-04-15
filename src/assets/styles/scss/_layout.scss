@@ -1,0 +1,70 @@
+body {
+  background: $white;
+  padding: 0;
+  margin: 0;
+  font: normal 12px "gilroy-regular", sans-serif, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.layout {
+  .nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
+    padding-inline: 100px;
+    justify-content: space-between;
+    top: 0;
+    background: $white;
+
+    width: 100%;
+
+    .logo {
+      color: $secondary;
+      font-size: 16px;
+    }
+
+    .menu {
+      list-style-type: none;
+      display: flex;
+      gap: 55px;
+
+      li {
+        a {
+          text-decoration: none;
+          color: $secondary;
+
+          &.active {
+            color: $primary;
+            border-bottom: 1px solid $primary;
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    margin-top: 100px;
+
+    .content-row {
+      padding-inline: 100px;
+    }
+  }
+}
+
+.image-1 {
+  background: $image1;
+}
+
+.image-2 {
+  background: $image2;
+}
+
+.bg-white {
+  background: $white;
+}
+
+.bg-gray {
+  background: $gray;
+}

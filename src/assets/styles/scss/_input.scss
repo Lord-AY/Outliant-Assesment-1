@@ -1,0 +1,11 @@
+.form-group {
+  input {
+    height: 40px;
+    width: 100%;
+    border-radius: 6px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
