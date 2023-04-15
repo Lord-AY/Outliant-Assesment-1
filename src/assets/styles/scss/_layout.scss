@@ -18,7 +18,7 @@ body {
     top: 0;
     background: $white;
     flex-wrap: wrap;
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
       padding-inline: 50px;
     }
 
@@ -27,7 +27,7 @@ body {
     .logo {
       color: $secondary;
       font-size: 16px;
-      @media (max-width: 768px) {
+      @media (max-width: 600px) {
         width: 100%;
         text-align: center;
         margin-bottom: 15px;
@@ -38,8 +38,10 @@ body {
       list-style-type: none;
       display: flex;
       gap: 55px;
-      @media (max-width: 768px) {
+      @media (max-width: 600px) {
+        width: 100%;
         gap: 30px;
+        justify-content: center;
         margin-bottom: 15px;
       }
 
@@ -57,7 +59,7 @@ body {
     }
 
     .action {
-      @media (max-width: 768px) {
+      @media (max-width: 600px) {
         width: 100%;
         text-align: center;
       }
